@@ -1,15 +1,23 @@
 import ProvidersCard from "../components/ProvidersCard";
-import { Container,Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 function Providers() {
-    return ( 
+    const providers = [/* your list of providers here */];
+
+    return (
         <Container>
-            <Row> 
-                <Col>
-                </Col>
-            </Row>
+            {providers.map((provider, index) => (
+                <Row key={index}>
+                    <Col>
+                        <ProvidersCard provider={provider} />
+                    </Col>
+                    <Col>
+                        <ProvidersCard provider={provider} />
+                    </Col>
+                </Row>
+            ))}
         </Container>
-     );
+    );
 }
 
 export default Providers;
