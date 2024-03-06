@@ -1,0 +1,73 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+#logo{
+    position: absolute;
+    width: 246px;
+    height: 248px;
+    /* left: 255px;
+    top: 615px; */
+
+}
+
+.app-logo{ 
+    height:40px; 
+    width:40px;
+    position: relative;
+    margin: 5px;
+}
+
+.nav-style{
+    color: #300544;
+    background-color: #E1AB38;
+    margin-bottom: 3rem;
+    
+}
+.avatar-shadow{
+    position: relative;
+    width: 315px;
+    height: 248px;
+    margin-left: -4em;
+}
+
+.btn-blue{
+    border-radius: 25px;
+    background-color: #7DDAE9;
+    color: #300544;
+}
+.btn-white{
+    border-radius: 25px;
+    border-color: #7DDAE9;
+    border-width: 1px;
+    background-color: #FFFFFF !important;
+    color: #300544 !important;
+    height: 3em;
+    width: 12em;
+    filter: drop-shadow(0 0 0.75rem #7DDAE9 );
+    /* box-shadow: 1px 2px 5px #7DDAE9; */
+
+}
+
+body{ 
+    background-color: #EFCACA;
+    color: #300544;
+}
+
+.search-img{
+    height: 5em;
+    width:75%;
+}
