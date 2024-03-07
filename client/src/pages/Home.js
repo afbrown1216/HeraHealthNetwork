@@ -1,8 +1,11 @@
 import { Container, Row,Col, Button } from 'reactstrap';
 import { Link } from "react-router-dom";
+import AppNavbar from '../components/AppNavbar';
+import Footer from '../components/Footer';
 function Home() {
     return ( 
         <div>
+             <AppNavbar/>
             <Container className='mt-5 pt-3'>
                <Row > 
                     <Col className='col-6'> 
@@ -42,6 +45,7 @@ function Home() {
                 </p>
                </Row>
             </Container>
+            <Footer/>
         </div>
      );
 }

@@ -3,6 +3,7 @@ server/node_modules
 client/node_modules
 /.pnp
 .pnp.js
+node_modules
 
 # testing
 /coverage
@@ -23,3 +24,7 @@ server/config/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+node_modules
+config/.env
+client/src/assets/.env
+config/keys.js

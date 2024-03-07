@@ -1,11 +1,16 @@
 import ProvidersCard from "../components/ProvidersCard";
 import { Container, Row, Col } from "reactstrap";
+import AppNavbar from '../components/AppNavbar';
+import Footer from '../components/Footer';
+import providers from "../assets/mockProviderData.json";
 
 function Providers() {
-    const providers = [/* your list of providers here */];
+    
 
     return (
-        <Container>
+        <>
+         <AppNavbar/>
+         <Container>
             {providers.map((provider, index) => (
                 <Row key={index}>
                     <Col>
@@ -17,6 +22,9 @@ function Providers() {
                 </Row>
             ))}
         </Container>
+        <Footer/>
+        </>
+        
     );
 }
 

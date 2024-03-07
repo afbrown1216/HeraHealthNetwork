@@ -1,7 +1,12 @@
+import AppNavbar from '../components/AppNavbar';
+import Footer from '../components/Footer';
+
 function ProviderDetails() {
     return ( 
         <div> 
-            Provider Details 
+             <AppNavbar/>
+            Provider Details
+            <Footer/> 
         </div>
      );
 }
